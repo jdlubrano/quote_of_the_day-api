@@ -1,0 +1,10 @@
+source 'https://rubygems.org'
+
+gem 'rake', '~> 10.0.0'
+gem 'sinatra', '~> 2.0.0'
+gem 'sinatra-contrib', '~> 2.0.0'
+gem 'rspec', '~> 3.6.0'
+gem 'rack-contrib'
+gem 'rack-test', '~> 0.6.3'
+gem 'pact', '~> 1.14.0'
+gem 'byebug', '~> 9.0.6'
