@@ -4,7 +4,7 @@ require_relative './provider_states'
 ENV['RACK_ENV'] = 'test'
 
 Pact.service_provider "Quote of the Day Service" do
-  honours_pact_with 'Gem Client' do
+  honours_pact_with 'Client Gem' do
 
     # This example points to a local file, however, on a real project with a continuous
     # integration box, you would use a [Pact Broker](https://github.com/bethesque/pact_broker) or publish your pacts as artifacts,
