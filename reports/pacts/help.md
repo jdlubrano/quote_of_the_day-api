@@ -1,10 +1,10 @@
 # For assistance debugging failures
 
 * The pact files have been stored locally in the following temp directory:
-    /home/joel/Sandbox/pact-demo/quote_of_the_day-api/tmp/pacts
+    /Users/joel/Sandbox/quote_of_the_day-api/tmp/pacts
 
 * The requests and responses are logged in the following log file:
-    /home/joel/Sandbox/pact-demo/quote_of_the_day-api/log/pact.log
+    /Users/joel/Sandbox/quote_of_the_day-api/log/pact.log
 
 * Add BACKTRACE=true to the `rake pact:verify` command to see the full backtrace
 
